@@ -1,0 +1,37 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table th {
+    background-color:#874099 !important;
+    color:white;
+}
+
+.btn-group, .btn-group-vertical{
+    position:absolute !important;
+}
+
+.navbar-gradient {
+    background: rgb(9,94,121);
+    background: linear-gradient(90deg, rgba(9,94,121,1) 0%, rgba(9,121,107,1) 45%, rgba(125,50,255,1) 100%);
+}
+
+
+.container-color a{
+    color:white !important;
+}
